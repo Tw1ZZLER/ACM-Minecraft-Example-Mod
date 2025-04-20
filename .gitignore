@@ -10,3 +10,7 @@
 /neoforge/run/
 /quilt/.gradle/
 /quilt/run/
+*/build
+*/bin
+*/.project
+.project
