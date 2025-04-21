@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "acmexamplemod:block/crunchwrap_block" }
+  }
+}
