@@ -45,7 +45,12 @@ public final class ExampleMod {
     );
     
     // CUSTOM FOOD PROPERTY
-    public static final FoodProperties CRUNCHWRAP_SUPREME_PROPERTIES = new FoodProperties.Builder().nutrition(20).saturationMod(2.0F).meat().build();
+    public static final FoodProperties CRUNCHWRAP_SUPREME_PROPERTIES = new FoodProperties
+    		.Builder()
+    		.nutrition(20)
+    		.saturationMod(2.0F)
+    		.meat()
+    		.build();
     
     // ITEM REGISTRY
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);

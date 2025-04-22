@@ -12,21 +12,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
 	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
-	<classpathentry kind="lib" path="/home/tw1zzler/Documents/ACM/ACM-Minecraft-Example-Mod/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-6ce3c7e87b/1.20.4-loom.mappings.1_20_4.layered+hash.40545-v2/minecraft-merged-6ce3c7e87b-1.20.4-loom.mappings.1_20_4.layered+hash.40545-v2.jar" sourcepath="/home/tw1zzler/Documents/ACM/ACM-Minecraft-Example-Mod/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-merged-6ce3c7e87b/1.20.4-loom.mappings.1_20_4.layered+hash.40545-v2/minecraft-merged-6ce3c7e87b-1.20.4-loom.mappings.1_20_4.layered+hash.40545-v2-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/home/tw1zzler/Documents/ACM/ACM-Minecraft-Example-Mod/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_4_layered_hash_40545_v2_forge_1_20_4_49_0_38_forge/dev/architectury/architectury-forge/11.1.17/architectury-forge-11.1.17.jar" sourcepath="/home/tw1zzler/Documents/ACM/ACM-Minecraft-Example-Mod/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_4_layered_hash_40545_v2_forge_1_20_4_49_0_38_forge/dev/architectury/architectury-forge/11.1.17/architectury-forge-11.1.17-sources.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="bin/default"/>
 </classpath>
