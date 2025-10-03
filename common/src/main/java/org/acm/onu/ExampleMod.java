@@ -31,6 +31,15 @@ public final class ExampleMod {
 				.strength(50.0F, 1200.0F)
 			)
     );
+    public static final RegistrySupplier<Block> FUNNY_BLOCK = BLOCKS.register(
+    		"funny_block", () -> new Block(
+			BlockBehaviour.Properties.of()
+				.mapColor(MapColor.COLOR_BLACK)
+				.instrument(NoteBlockInstrument.BASEDRUM)
+				.requiresCorrectToolForDrops()
+				.strength(50.0F, 1200.0F)
+			)
+    );
     
     // CREATIVE TAB
     public static final DeferredRegister<CreativeModeTab> TABS =
@@ -57,8 +66,7 @@ public final class ExampleMod {
     public static final RegistrySupplier<Item> CRUNCHWRAP_SUPREME_ITEM = ITEMS.register(
     		"crunchwrap_supreme", () -> new Item(new Item.Properties().food(CRUNCHWRAP_SUPREME_PROPERTIES).arch$tab(MY_TAB)));
     public static final RegistrySupplier<Item> CRUNCHWRAP_BLOCK_ITEM = ITEMS.register(
-    		"crunchwrap_block", () -> new BlockItem(CRUNCHWRAP_BLOCK.get(), new Item.Properties().arch$tab(MY_TAB)));
-    
+    		"crunchwrap_block", () -> new BlockItem(CRUNCHWRAP_BLOCK.get(), new Item.Properties()));
 
     public static void init() {
         // Write common initialization code here.
